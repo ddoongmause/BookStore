@@ -1,4 +1,4 @@
-# window Command-line interface 정리 
+# 초반 세팅 정리 
 
 1. yarn global add create-react-app
 
@@ -10,4 +10,15 @@
 
 5. yarn start
 
+6. yarn add express
 
+7. yarn global add http-rpoxy-middleware 
+
+8. yarn gloabl add npm-run-all
+
+9. package.json 값 수정
+```
+"start": "npm-run-all -p start:**",
+"start:client": "react-scripts start",
+"start:server": "node ./server/server.js",
+```
