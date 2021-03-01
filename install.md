@@ -1,11 +1,13 @@
-yarn global add create-react-app
+# window Command-line interface 정리 
 
-create-react-app '해당폴더'
+1. yarn global add create-react-app
 
-create-react-app bookstore
+2. create-react-app bookstore(create-react-app '해당폴더')
 
-cd bookstore
+3. cd bookstore
 
-yarn start
+4. yarn add mobx mobx-react
+
+5. yarn start
 
 
