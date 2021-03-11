@@ -22,3 +22,4 @@
 "start:client": "react-scripts start",
 "start:server": "node ./server/server.js",
 ```
+10. yarn global add serve

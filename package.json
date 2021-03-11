@@ -20,6 +20,7 @@
     "start:server": "node ./server/server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "serve": "serve -s build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
