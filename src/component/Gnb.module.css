@@ -1,0 +1,16 @@
+.category {
+  height: 100px;
+  padding: 37px 29% 36px 29%;
+  background-color: #dbdbdb;
+  display: block;
+}
+.categoryUl{
+  clear: both;
+}
+.categoryLiFirst{
+  float: left;
+}
+.categoryLi{
+  padding-left: 7%;
+  float: left;
+}

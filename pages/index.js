@@ -2,7 +2,8 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import Header from "../src/component/Header";
 import Gnb from "../src/component/Gnb";
-import Best from "../src/component/Best";
+import Best from "../src/component/main/Best";
+import Banner from "../src/component/main/Banner";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       
       <main>
         <div>
+          <Banner/>
           <Best/>
           <div>신상품</div>
           <div>첫 구매 이벤트</div>

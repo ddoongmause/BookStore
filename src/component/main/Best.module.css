@@ -1,0 +1,45 @@
+.best{
+  display: block;
+  background-color: #f2f3f7;
+
+}
+.bestMargin{
+  margin: 0px 15% 50px 15%;
+  padding-top: 70px;
+}
+.title{
+  height: 43px;
+  margin-bottom: 50px;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.itemImages{
+  width: 290px;
+  height: 290px;
+  margin-right: 2.6%;
+  border: solid 1px #707070;
+}
+.itemTitle{
+  width: 178px;
+  height: 27px;
+  margin: 10px 112px 0 0;
+  font-family: NotoSansCJKKR;
+  font-size: 18px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #000000;
+}
+.itemBox{
+  display: inline;
+}
