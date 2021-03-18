@@ -4,6 +4,9 @@ import Header from "../src/component/Header";
 import Gnb from "../src/component/Gnb";
 import Best from "../src/component/main/Best";
 import Banner from "../src/component/main/Banner";
+import NewMemberBanner from "../src/component/main/NewMemberBanner";
+import MDPick from "../src/component/main/MDPick";
+import Event from "../src/component/main/Event";
 
 export default function Home() {
   return (
@@ -19,11 +22,11 @@ export default function Home() {
       <main>
         <div>
           <Banner/>
-          <Best/>
-          <div>신상품</div>
-          <div>첫 구매 이벤트</div>
-          <div>MD가 추천하는 상품을 한 눈에 보기</div>
-          <div>Event</div>
+          <Best status={'best'}/>
+          <Best status={'new'}/>
+          <NewMemberBanner/>
+          <MDPick/>
+          <Event/>
         </div>
       </main>
     </div>

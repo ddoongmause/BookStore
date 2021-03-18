@@ -1,0 +1,19 @@
+.banner{
+    height: 150px;
+    margin: 140px 0;
+    padding: 57px 40% 52px 40%;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+}
+.text{
+    font-family: NotoSansCJKKR;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    height: 500px;
+    color: #000000;
+}
