@@ -8,10 +8,10 @@ export default function Gnb(){
     <div className={styles.category}>
       <ul className={styles.categoryUl}>
         <li className={styles.categoryLiFirst}><Link href='/naver'><a>단권</a></Link></li>
-        <li className={styles.categoryLi}><Link href='/naver'><a href='/naver'>전집</a></Link></li>
-        <li className={styles.categoryLi}><Link href='/naver'><a href='/naver'>공지사항</a></Link></li>
-        <li className={styles.categoryLi}><Link href='/naver'><a href='/naver'>이벤트</a></Link></li>
-        <li className={styles.categoryLi}><Link href='/naver'><a href='/naver'>고객센터</a></Link></li>
+        <li className={styles.categoryLi}><Link href='/naver'><a>전집</a></Link></li>
+        <li className={styles.categoryLi}><Link href='/naver'><a>공지사항</a></Link></li>
+        <li className={styles.categoryLi}><Link href='/naver'><a>이벤트</a></Link></li>
+        <li className={styles.categoryLi}><Link href='/naver'><a>고객센터</a></Link></li>
       </ul>
     </div>
   )

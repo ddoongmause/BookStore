@@ -1,7 +1,7 @@
-import styles from './Best.module.css';
+import styles from './Books.module.css';
 import Link from "next/link";
 
-export default function Best({status}){
+export default function Books({status}){
   let title, url = '';
 
   if(status === 'best'){

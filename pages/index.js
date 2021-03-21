@@ -1,8 +1,7 @@
 import Head from 'next/head'
-import styles from '../styles/Home.module.css'
 import Header from "../src/component/Header";
 import Gnb from "../src/component/Gnb";
-import Best from "../src/component/main/Best";
+import Books from "../src/component/main/Books";
 import Banner from "../src/component/main/Banner";
 import NewMemberBanner from "../src/component/main/NewMemberBanner";
 import MDPick from "../src/component/main/MDPick";
@@ -22,8 +21,8 @@ export default function Home() {
       <main>
         <div>
           <Banner/>
-          <Best status={'best'}/>
-          <Best status={'new'}/>
+          <Books status={'best'}/>
+          <Books status={'new'}/>
           <NewMemberBanner/>
           <MDPick/>
           <Event/>

@@ -9,8 +9,18 @@
 }
 .categoryLiFirst{
   float: left;
+  font-family: NotoSansCJKKR;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
 }
 .categoryLi{
   padding-left: 16%;
   float: left;
+  font-family: NotoSansCJKKR;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: left;
+  color: #000000;
 }
