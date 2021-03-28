@@ -27,6 +27,7 @@
   font-weight: bold;
   line-height: 1.45;
   color: #000000;
+  background-image: url("/images/kakao.PNG");
 }
 .looginNaver{
   width: 900px;
@@ -41,6 +42,7 @@
   font-weight: bold;
   line-height: 1.45;
   color: #ffffff;
+  background-image: url("/images/naver.ICO");
 }
 .loginFacebook{
   width: 900px;
@@ -55,4 +57,5 @@
   font-weight: bold;
   line-height: 1.45;
   color: #ffffff;
+  background-image: url("/images/fb.PNG") ;
 }
